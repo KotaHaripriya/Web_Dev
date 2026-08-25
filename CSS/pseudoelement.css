@@ -1,0 +1,46 @@
+/* visited*/
+a:visited{
+    color: rgb(255, 155, 127);
+}
+
+/*hover*/
+button:hover {
+    background-color: rgb(26, 255, 0);
+}
+
+/*Active*/
+button:active {
+    background-color: red;
+}
+
+/*first-child*/
+p:first-child {
+    color: rgb(255, 0, 212);
+}
+
+
+/*nth element*/
+li:nth-child(2) {
+    color: orange;
+}
+
+/*checked*/
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+/*disabled*/
+input:disabled {
+    background-color: rgb(211, 211, 211);
+}
+
+/*required*/
+input:required {
+    border: 2px solid red;
+}
+
+/*last child*/
+p:last-child {
+    color: blue;
+}

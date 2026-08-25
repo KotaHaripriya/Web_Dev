@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* First Letter : Selects First letter of element */
+p::first-letter{
+    font-size:40px;
+    color:red;
+    font-weight:bold;
+}
+
+/* First Line: selects first line of code */
+p::first-line{
+    color:blue;
+}
+
+/* Before : select content before h1 tag*/
+h1::before{
+    content:"* ";
+    color:gold;
+}
+
+/* After */
+h1::after{
+    content:" *";
+    color:gold;
+}
+
+/* Selection:select the content highlighted by the user*/
+::selection{
+    background-color:yellow;
+    color:black;
+}
+
+/* Placeholder:does the changes in place holder */
+input::placeholder{
+    color:green;
+    font-style:italic;
+}
+
+/* Marker : selects bullets or numbers */
+li::marker{
+    color:red;
+    font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Pseudo Element Practice</h1>
+
+<p>
+CSS pseudo-elements allow you to style specific parts of an element.
+This paragraph demonstrates first-letter and first-line pseudo-elements.
+Try selecting this text with your mouse.
+</p>
+
+<input type="text" placeholder="Enter your name">
+
+<h2>Subjects</h2>
+<ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+</body>
+</html>

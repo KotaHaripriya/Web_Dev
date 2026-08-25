@@ -1,0 +1,48 @@
+*{
+    background-color: rgb(233, 175, 14);
+}
+h1{ 
+    text-align: center;
+    background-color: rgb(182, 13, 13);
+    margin: 0;
+    color: rgb(233, 175, 14);
+}
+.menu{
+    display: flex;  /* content are arranged in row */
+    flex-wrap: wrap; /* if the there isn't enough space the card is moved to the new row */
+    gap: 20px; /* align the cards in middle*/
+    justify-content: center; /*keeps the gap between the cards*/
+    margin-top: 20px; /*top margin*/
+}
+.Uttapam{
+    width: 350px;
+    border: 2px solid black;
+    margin: 20px; 
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden; /*keeps the corners clean */
+    display: flexbox;
+
+}
+.Uttapam img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover; 
+    display: block;
+}
+section{
+    background-color: white;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin: auto;  
+
+}
+h4{
+    background-color: white;
+}
+p{
+    background-color: white;
+
+}
